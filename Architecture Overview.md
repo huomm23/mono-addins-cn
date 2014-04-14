@@ -14,7 +14,7 @@ Mono.Addins定义了一系列的API （在Mono.Addins.dll中实现），可以�
 
 ## 一个简单的例子
 这个例子要实现是一个可以支持插件扩展的文本编辑器 （Text Editor）， 下图显示了编辑器支持的扩展点， 以及提供扩展的一些插件。
-
+![image](https://github.com/huomm23/mono-addins-cn/master/Images/Architecture Overview/500px-Mono-addins-sample.png)
 
 
 本文的后续章节将解释如何使用Mono.Addins 来针对文本编辑器提供不同类型的扩展。现在让我们从程序的骨架和一个简单的扩展开始。
