@@ -23,7 +23,7 @@ Mono.Addins定义了一系列的API （在Mono.Addins.dll中实现），可以�
 
 插件宿主（The Add-in Host）
 文本编辑器有一个TextEditor.exe可执行程序集构成，以下是主要代码：
-
+```
     using System;
     using Mono.Addins;
 
@@ -46,6 +46,7 @@ Mono.Addins定义了一系列的API （在Mono.Addins.dll中实现），可以�
     {
         void Run ();
     }
+```
 这段代码呈现了一些声明和初始化操作。这些操作在所有的需要扩展的应用程序中都是必须的：
 
 特性 [AddinRoot] 应用到程序集声明，表示这个程序集是插件宿主程序集，插件宿主必须提供标识和版本信息。
